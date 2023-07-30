@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGR PROJECT 1</title>
+    <link rel="stylesheet" href="project1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Raleway:wght@700&display=swap" rel="stylesheet">
+     <style>
+        
+    body{
+    height: 1200px;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+    background: url("./gym1.jpg");
+    background-size: 1634px;
+    font-family: 'Open Sans';
+    }
+    .left img{
+    width: 123px;
+    height: 120px;
+    }
+    .left div{
+    text-align: left;
+    }
+    .left{
+    font-size: 20px;
+    display: inline-block;
+    /*margin: auto;
+    border: 2px solid rgb(64, 0, 255);*/
+    position: absolute;
+    top: 60px;
+    left: 34px;
+
+    }
+    .center{
+    display: block;
+    width: 52%;
+    top: 18px;
+    margin: 10px auto;
+    position: sticky;
+    }
+    .right{
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    /*border: 2px solid red;*/
+    right: 34px;
+    border-radius: 15px;
+    }
+    .btn{
+    background-color: black;
+    color:cornsilk ;
+    padding: 4px 5px;
+    font-size: 18px;
+    margin: 2px 6px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: rgb(216, 216, 101);
+    font-family: 'Open Sans';
+    }
+    .btn:hover{
+    background-color: rgb(185, 245, 245);
+    }
+    .navbar{
+   display:inline-block ;
+    }
+    .navbar li{
+    display:inline-block ;
+    font-size: 20px;
+    }
+    .navbar li a{
+   color: aliceblue;
+    text-decoration: none;
+    padding: 6px 8px;
+    }
+    .navbar li a:hover{
+   text-decoration: underline;
+   text-decoration-color: yellow ;
+    }
+    .navbar li a.active{
+   text-decoration: underline;
+   color: grey;
+    }
+    
+    .help{
+    height: 40px;
+    background-color: rgb(248, 248, 155);
+    border: 2px solid yellow;
+    font-size: 20px;
+    text-align: right;
+    }
+    .container{
+        border: 2px solid rgb(241, 160, 135);
+        margin: 230px 19px;
+        padding: 72px;
+        font-size: 12px;
+        border-radius: 109px;
+        font-family: cursive;
+        text-align: center;
+        width: 33%;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 151px;
+        padding: 14px 193px;
+        border: 2px solid red;
+        border-radius: 123px;
+        font-size: 17px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        border: 2px solid rgb(241, 249, 241);
+        display: block;
+        margin: 20px auto;
+        font-size: 17px;
+        width: 100%;
+        border-radius:23px ;
+    }
+
+    </style> 
+        
+</head>
+<body>
+    <header class="header">
+        <!-- Left Box for logo -->
+        <div class="help">
+           AGR  customer care no.   +91 9167243580
+        </div>
+        <!-- <div id="help2">
+            AGR FITNESS CLUB
+        </div> -->
+        <div class="left">
+            <img src="./power gym.jpg" alt="AGR FITNESS"> <br>
+            AGR FITNESS GYM
+            
+            
+        </div>
+        <!-- Mid box for nav -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="" class="active">Home  </a></li>
+                <li><a href="" > Gallery  </a></li>
+                <li><a href="" > Apply Free Demo  </a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Calculator </a></li>
+                <li><a href="">Contact Us</a></li>
+    
+            </ul>
+
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+           <a href="+919167243580"><button class="btn"> Contact Us  </button></a>
+           <a href="anuraggupta8309@gmail.com"><button class="btn"> Email Us  </button>  </a>
+        </div>
+        <div class="container">
+            <h1> Join The Mumbai's Best Fitness GYM</h1>
+            <form action="nooaction.php">
+                <div class="form-group">
+                    <input type="text" placeholder="Enter Your Name ">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Enter Your Age ">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Enter Your Gender ">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Enter Your Loaclity ">
+                </div>
+                <button class="btn"> Submit </button>
+
+
+
+            </form>
+        </div>
+    </header>
+    </div>
+
+</body>
+</html>
